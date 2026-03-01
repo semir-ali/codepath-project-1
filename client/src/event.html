@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Event — Events In Rhode Island</title>
+    <link rel="stylesheet" href="https://unpkg.com/picocss@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="grid"></header>
+    <main class="container">
+      <header class="card">
+        <h1 id="ev-title">Loading…</h1>
+        <p class="muted" id="ev-meta"></p>
+        <a href="/" class="contrast">Back to events</a>
+      </header>
+
+      <article class="card" id="ev-article">
+        <img id="ev-image" src="" alt="" style="max-width:100%;height:auto;display:none;">
+        <h2 id="ev-summary-title">Summary</h2>
+        <p id="ev-summary"></p>
+        <h3>Full description</h3>
+        <p id="ev-description"></p>
+    </main>
+
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/event.js"></script>
+  </body>
+</html>
